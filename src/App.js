@@ -6,7 +6,7 @@ import DialogContent from "@material-ui/core/DialogContent";
 import DialogTitle from "@material-ui/core/DialogTitle";
 import DialogActions from "@material-ui/core/DialogActions";
 import  Header from './components/headerComponent';
-import Recipe from './components/recipeComponent';
+import Recipe from './components/recipeComponent'
 
 const APP_ID = "3afb4cfe";
 const APP_KEY = "f4ae9da2d0b6f31550a84aa2e1af04d3";
