@@ -1,12 +1,13 @@
 import React, { useState } from 'react'
 import  styled  from 'styled-components'
 import  Axios  from 'axios';
-import Dialog from "@material-ui/core/Dialog";
-import DialogContent from "@material-ui/core/DialogContent";
-import DialogTitle from "@material-ui/core/DialogTitle";
-import DialogActions from "@material-ui/core/DialogActions";
+import Dialog  from '@mui/material/Dialog';
+import DialogContent from '@mui/material/DialogContent';
+import DialogTitle from '@mui/material/DialogTitle';
+import DialogActions  from '@mui/material/DialogActions';
 import  Header from './components/headerComponent';
 import Recipe from './components/recipeComponent'
+
 
 const APP_ID = "3afb4cfe";
 const APP_KEY = "f4ae9da2d0b6f31550a84aa2e1af04d3";
